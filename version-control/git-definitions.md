@@ -20,4 +20,4 @@ Before you can commit, all of your files must be added to the staging list. Befo
 
  Attached is a solution to a merge conflict: https://help.github.com/articles/resolving-a-merge-conflict-from-the-command-line/
 
- **wrote this down to merge into branch instead*
+ **wrote this down to merge into branch instead*****
