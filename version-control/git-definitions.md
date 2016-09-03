@@ -19,4 +19,5 @@ Before you can commit, all of your files must be added to the staging list. Befo
  Merge conflict happens when two branches have changed the same part of the same file, and then those branches are merged together. For example, if you make a change on a particular line in a file, and your colleague working in a repository makes a change on the exact same line, a merge conflict occurs. Git has trouble understanding which change should be used, so it asks you to help out.
 
  Attached is a solution to a merge conflict: https://help.github.com/articles/resolving-a-merge-conflict-from-the-command-line/
- 
+
+ **wrote this down to merge into branch instead**
