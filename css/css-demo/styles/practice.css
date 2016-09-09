@@ -1,0 +1,29 @@
+#contact-info {
+	font-size: .8em;
+}
+
+.job {
+	background-color: #e9e5dc;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+
+}
+
+.test {
+	font-size: .8em;
+}
+
+/*cascading means there are more than one 
+style sheet that applies to particular html*/
+
+/*importance: Contextual Selector Depth < CLASS < ID*/
+
+/*http://www.w3schools.com/css/css_pseudo_classes.asp*/
+/* pseudo selector = defines a special state of an element*/
+/*selector:pseudo-class {
+    property:value;
+}*/
+
+/*section#contact-info p {*/
