@@ -1,26 +1,29 @@
 .octopus-dude {
   position: relative;
+  	margin: 100px;
+	z-index: -1;
+	position: fixed;
 }
 
-#glass
+#glasses
 {
  position: absolute;
- margin-bottom: 50%;
- top: 50px;
- left: 100px;
+ top: 230px;
+ left: 150px;
+ z-index: 2;
 }
 
-#octo{
+#octopus{
   position: absolute;
-  top: 500px;
-  left: 32px;
+  top: 130px;
+  left: 100px;
   color: green;
 }
 
 
 #hat{
 	position: absolute;
-    left: 10px;
-    top: 20px;
-    z-index: -1;
+    top: 50px;
+    left: 80px;
+    z-index: 1;
 }
