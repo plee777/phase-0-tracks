@@ -1,0 +1,50 @@
+body {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: "times-new-roman";
+}
+
+article{
+  vertical-align: top-text;
+}
+
+header {
+    background-color: green;
+    position: relative;
+    padding: 10px;
+
+}
+
+h1 {
+  border:dashed;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.column-1 {
+  padding: 2px;
+  display: table-cell;
+  background-color: blue;
+  width: 49%;
+  vertical-align: top;
+  font-style: italic;
+  border:dotted;
+
+}
+
+.column-2 {
+  padding: 2px;
+  display: table-cell;
+  background-color: red;
+  width: 49%;
+  vertical-align: top;
+  border:dotted;
+  color: white;
+}
+
+footer {
+  background-color: purple;
+  }
+}
