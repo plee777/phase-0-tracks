@@ -1,0 +1,7 @@
+Consider the workflow advice above, and compare it to your coding process so far. How can your workflow improve? 
+My workflow can improve by testing my code frequently and also reading a lot of code.
+
+What mistakes have caused you the most trouble in the past? 
+By not writing enough code, or reading a lot of code, I am not accustomed to what common errors are and it takes me a long time for me to debug. I think by just using stack overflow and discussing with my fellow colleagues, I can learn a lot more!
+
+Write a paragraph or two about flaws in your workflow and how you plan to break any bad habits. Submit it in the provided text box.
