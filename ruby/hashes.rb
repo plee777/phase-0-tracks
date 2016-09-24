@@ -13,11 +13,10 @@
 
 index = 0
 value = 2
+response = []
 
 puts "welcome to interior designer input list"
 puts "Please fill out this form!"
-
-while index < value
  
 post = {}
 	puts "what is your name?"
@@ -37,16 +36,24 @@ puts "here is #{name}, who is #{age} old with #{number_of_children} children. Th
 puts "Are you satisfied with the info? (true/false)"
 answer = gets.chomp
 if answer == "true"
-	index == 3
 	puts "Have a great day!"
-	break
-elsif answer == "false"
-	puts "lets go update then."
+	
+else answer == "false"
+	puts "what do you want to update? please update name, age, number_of_children, decor_theme, or skills"
+	update = gets.chomp
+		if update == :name
+			post[:name] = post
+		elsif update == :age
+			post[:age] = response
+		else update == :skills
+			post[:skills] = response
 	index == 1
-else
-	puts "what do you mean?"
+	p post
+		end
+
+puts ""
 end
 
-end
+
 
 p post
