@@ -11,49 +11,41 @@
 #7.if else, user puts down what they want to change
 #8.print the latest hash back
 
-index = 0
-value = 2
-response = []
 
 puts "welcome to interior designer input list"
 puts "Please fill out this form!"
  
 post = {}
 	puts "what is your name?"
-	name = gets.chomp
+	post[:name] = gets.chomp
 	puts "what is your age"
-	age = gets.to_i
+	post[:age] = gets.to_i
 	puts "how many children do you have?"
-	number_of_children = gets.to_i
+	post[:number_of_children] = gets.to_i
 	puts "what is your ideal decor theme?"
-	decor_theme = gets.chomp
+	post[:decor_theme] = gets.chomp
 	puts "from a scale of 1 to 10, what is your design skills?"
-	skills = gets.to_f
+	post[:skills] = gets.to_f
 
 
-puts "here is #{name}, who is #{age} old with #{number_of_children} children. The ideal decor theme is#{decor_theme}. Design skills are #{skills} out of 10." 
+# puts "here is #{name}, who is #{age} old with #{number_of_children} children. The ideal decor theme is#{decor_theme}. Design skills are #{skills} out of 10." 
+puts "-" * 17
+puts post
 
-puts "Are you satisfied with the info? (true/false)"
-answer = gets.chomp
-if answer == "true"
-	puts "Have a great day!"
-	
-else answer == "false"
-	puts "what do you want to update? please update name, age, number_of_children, decor_theme, or skills"
-	update = gets.chomp
-		if update == :name
-			post[:name] = post
-		elsif update == :age
-			post[:age] = response
-		else update == :skills
-			post[:skills] = response
-	index == 1
-	p post
-		end
+#updating conditions?
+puts "Would you like to update?  If yes, please enter the key you would like to 
+change first.  If this looks correct, just type 'none'."
+key_change = gets.chomp
 
-puts ""
+if key_change == "none"
+	puts "Thanks. Here's your info again."
+else 
+	puts "Change value to?"
+	updated_info = gets.chomp
+	post_update = {
+		key_change.to_sym => updated_info
+	}
+	post.merge!(post_update)
 end
-
-
 
 p post
