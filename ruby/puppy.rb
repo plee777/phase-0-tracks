@@ -1,0 +1,8 @@
+# PUPPY CLASS -------------
+	# 
+
+# CHARACTERISTICS -----------
+
+
+
+# BEHAVIOR-------
