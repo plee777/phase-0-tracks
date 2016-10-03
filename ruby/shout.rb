@@ -18,4 +18,22 @@
 module Shout
 	def yelling(words)
 		words + "!!!"
+	end
+end
+
+class Yell_angry
+	include Shout
+end
+
+class Yell_happy
+	include Shout
+end
+
+angry = Yell_angry.new
+angry.yelling("omg")
+
+happy = Yell_happy.new
+happy.yelling("YAY")
+
+
 
