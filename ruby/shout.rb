@@ -30,10 +30,10 @@ class Yell_happy
 end
 
 angry = Yell_angry.new
-angry.yelling("omg")
+p angry.yelling("omg")
 
 happy = Yell_happy.new
-happy.yelling("YAY")
+p happy.yelling("YAY")
 
 
 
