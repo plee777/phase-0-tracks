@@ -1,0 +1,12 @@
+algorithm-for-using-an-elevator
+
+1. walk up to the door
+2. face the door with either of your hand ready to press any of the two buttons
+3. press the button (up or down depending on destination)
+4. wait until the elevator rings up to the floor. 
+5. elevator makes a noise and door opens.
+6. step into the elevator and face the elevator keys
+7. press the button (if it has not been clicked on already)
+8. wait until the door closes.
+9. stay in the elevator until your final destination.
+10. walk out of the elevator.

@@ -1,0 +1,50 @@
+Variables
+1. What is a variable? Why might a programmer use a variable?
+variable is a term that is defined. programmers use variables to solve problems.
+
+2. If the value of first_name is "Abraham" and last_name is "Lincoln", explain the order in which Ruby will run the line full_name = first_name + last_name, and what the final result will be.
+ruby would see the first name then add it to the last name.
+AbrahamLincoln
+
+
+Data Types
+3. For each of the following data types, write a short definition and give at least one example of when you might use the data type in a program. (Don't use an example we've already provided.)
+
+string - words
+integer - full digits 
+float - including decimals
+nil - 0
+boolean - true or false
+
+Algorithms 
+4. What is an algorithm?
+algorithms are compilation of code that is used to solve problems.
+5. What are two common categories of algorithm in computer science? 
+not sure.
+
+Methods
+6. What is a method? Why might a programmer choose to use a method?
+method is also known as a function. programmers choose to use a method to describe a set of compiled programs that can be called up easily
+
+7. Define the following terms as they relate to a method. 
+
+return value - the output
+side effect - the “side effect” while getting the return value
+parameter - the variables you can control
+argument - the input of the method
+implicit return - returns that are implied.
+
+8. What are global scope and method scope? How do those scopes impact the availability of data at different points in a program?
+
+Control Flow
+9. What is control flow? Why might a programmer choose to use flow control?
+
+10. Define the following terms as they relate to flow control.
+
+loop
+if
+else
+elsif
+while
+until
+Rubric
