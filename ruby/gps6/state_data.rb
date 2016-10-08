@@ -13,7 +13,7 @@
 # The symbol is more of immutable stringholder. 
 
 # STATE_DATA's kind of variable is constant. All capitalized is a constant.
-# The scope is global. 
+# The scope is effectively global. 
 
 STATE_DATA = {
   "Alabama" => {population_density: 94.65, population: 4822023},
