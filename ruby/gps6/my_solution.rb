@@ -7,6 +7,10 @@
 #
 #
 require_relative 'state_data'
+# this require_relative is loading the data from 'state_data' since it's in the same folder.
+# we usually use require to get extra classes and gems to get extra that's not built into ruby.
+# If we use require, we can get other classes. require_relative is more flexible.
+
 
 class VirusPredictor
 
@@ -85,3 +89,7 @@ alaska.virus_effects
 
 #=======================================================================
 # Reflection Section
+
+# 
+
+
