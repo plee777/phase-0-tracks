@@ -12,3 +12,11 @@ return newString
 if (true) {console.log(sayHello("Hi"));}
 
 else {{console.log(sayHello("Bye."));}
+
+
+function reverse(s) {
+  var o = '';
+  for (var i = s.length - 1; i >= 0; i--)
+    o += s[i];
+  return o;
+}
