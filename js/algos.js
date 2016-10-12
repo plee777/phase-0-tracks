@@ -1,9 +1,5 @@
 // release 0 
 
-array = ["test", "testt", "testtt", "testttt"]
-function takesArray(array)
- return longestWord = 
-
 //psuedocode 
 //1. array created
 //2. the program looks at:
@@ -12,6 +8,21 @@ function takesArray(array)
 //  2.3 in other words (loop through each element to determine string length)
 //3. picks out the highest value
 //4. drivercode = takesArray("array")
+array = ["test", "testt", "testtt", "testttt"]
+
+function takesArray(array){
+	var takesArray = ""
+	for (var i in array){
+		if (takesArray.length < array[i].length)
+			takesarray = array[i]
+	}
+
+ return takesArray;
+}
+
+array = ["test", "testt", "testtt", "testttt"]
+console.log(takesArray(array))
+
 
 // release 1
 
@@ -23,9 +34,21 @@ function takesArray(array)
 //  3.2 I need to break this down better...
 //  3.3 if there is a match, then return true
 //  3.4 else, false
-//4. 
-object1 = {}
-object2 = {}
+// //4. 
+// object1 = {}
+// object2 = {}
+
+function match(object1,object2){
+	for var key in object1) {
+		if (object1[key]) == object2[key]){
+			return true;
+			}
+		}
+		return false;
+
+
+console.log(match({animal: "gorilla", age: 4},{animal: "tiger", age: 4}))  //true
+
 
 // release 2
 // pseudocode
@@ -36,6 +59,11 @@ object2 = {}
 // 5. generate a random letter of the alphabet
 // 6. add "such" to the string
 // 7. write driver code === generates, prints, feeds array. 
+
+function returnRandom(integer){
+	var 
+}
+
 
 // Write a function that takes an integer for length, and builds and returns an array of strings 
 // of the given length. So if we ran your function with an argument of 3, we would get an array of 3
