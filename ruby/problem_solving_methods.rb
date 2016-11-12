@@ -1,3 +1,25 @@
+array = [1, 3, 5, 8, 4, 6, 7, 9, 2]
+i = 0
+j = 1
+key = 0
+
+while j < array.length
+
+	key = array[j] 
+	i = j - 1
+
+	while (array[i] > key) && (i >= 0)
+		array[i + 1] = array[i] 		
+		i -= 1 
+	end
+
+
+	array[i + 1] = key
+
+	j += 1 
+end
+
+puts array
 
 
 
